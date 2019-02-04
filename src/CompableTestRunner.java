@@ -10,7 +10,7 @@ public class CompableTestRunner {
         System.out.println("g1.comareTo(g2) = "+g1.compareTo(g2));
 
         //Make a sorted array of "Gadgets"
-        Gadget[] sortedArr = {new Gadget(10),
+        Comparable[] sortedArr = {new Gadget(10),
                               new Gadget(20),
                               new Gadget(30),
                               new Gadget(40)};
